@@ -1,0 +1,17 @@
+[
+{
+  "modid": "Forgemancy",
+  "name": "Forgemancy",
+  "description": "",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["Olacken"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "parent": "",
+  "dependencies": []
+}
+]

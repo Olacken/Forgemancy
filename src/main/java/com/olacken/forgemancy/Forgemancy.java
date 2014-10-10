@@ -21,23 +21,17 @@ public class Forgemancy {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
-
-
-        ModItems.init();
-        LogHelper.info("Pre Initialization Complete");
+        proxy.preInit(event);
 
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-
-        LogHelper.info("Initialization Complete");
+        proxy.init(event);
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event) {
-
-        LogHelper.info("Post Initialization Complete");
+        proxy.postInit(event);
     }
 }

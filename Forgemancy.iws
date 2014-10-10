@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="890b8cfe-314f-4215-86bf-1ba0c6819bb9" name="Default" comment="Setup basics of ingot">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/ressources/assets/forgemancy/textures/items/ingot.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/ressources/assets/forgemancy/mcmod.info" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/block/BlockFMBase.java" afterPath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/block/BlockFMBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/proxy/ClientProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/proxy/CommonProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/proxy/CommonProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/handler/ConfigurationHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/handler/ConfigurationHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/creativeTab/CreativeTabFM.java" afterPath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/creativeTab/CreativeTabFM.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Forgemancy.iml" afterPath="$PROJECT_DIR$/Forgemancy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Forgemancy.ipr" afterPath="$PROJECT_DIR$/Forgemancy.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Forgemancy.iws" afterPath="$PROJECT_DIR$/Forgemancy.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/Forgemancy.java" afterPath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/Forgemancy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/proxy/IProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/proxy/IProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/item/ItemFMBase.java" afterPath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/item/ItemFMBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/item/ItemIngot.java" afterPath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/item/ItemIngot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/LogHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/LogHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/init/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/init/ModBlocks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/init/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/init/ModItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/NBTHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/NBTHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/reference/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/reference/Reference.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/proxy/ServerProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/proxy/ServerProxy.java" />
-    </list>
+    <list default="true" id="890b8cfe-314f-4215-86bf-1ba0c6819bb9" name="Default" comment="Setup basics of ingot" />
     <ignored path="Forgemancy.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,11 +59,115 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BlockFMBase.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/block/BlockFMBase.java">
+      <file leaf-file-name="RenderHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/RenderHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7835821" vertical-offset="0" max-vertical-offset="525">
-              <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1608" max-vertical-offset="3026">
+              <caret line="108" column="39" selection-start-line="108" selection-start-column="39" selection-end-line="108" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreativeTabs.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/creativetab/CreativeTabs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2100" max-vertical-offset="5474">
+              <caret line="193" column="31" selection-start-line="193" selection-start-column="17" selection-end-line="193" selection-end-column="31" />
+              <folding>
+                <element signature="e#6699#6700#0" expanded="true" />
+                <element signature="e#6723#6724#0" expanded="true" />
+                <element signature="e#7866#7867#0" expanded="true" />
+                <element signature="e#7908#7909#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemRenderer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/client/renderer/ItemRenderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1796" max-vertical-offset="12546">
+              <caret line="156" column="53" selection-start-line="156" selection-start-column="53" selection-end-line="158" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreativeTabFM.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/creativeTab/CreativeTabFM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <folding>
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientProxy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/proxy/ClientProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="374">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlloyUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/AlloyUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="629">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlloyData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/AlloyData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1204" max-vertical-offset="1547">
+              <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemIngot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/item/ItemIngot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="714">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemEnchantedBook.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/item/ItemEnchantedBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1551" max-vertical-offset="2142">
+              <caret line="53" column="60" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RenderIngot.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/render/item/RenderIngot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17575757" vertical-offset="1234" max-vertical-offset="1564">
+              <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,10 +203,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/LogHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/reference/Reference.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/init/ModItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/block/BlockFMBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/render/item/ItemIngot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/proxy/IProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/Forgemancy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/proxy/CommonProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/RenderUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/render/item/IItemRenderer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/AlloyData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/creativeTab/CreativeTabFM.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/item/ItemIngot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/block/BlockFMBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/proxy/ClientProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/AlloyUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/RenderHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/render/item/RenderIngot.java" />
       </list>
     </option>
   </component>
@@ -132,9 +225,10 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-3" />
-    <option name="width" value="1366" />
-    <option name="height" value="771" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -192,6 +286,46 @@
               <option name="myItemId" value="Forgemancy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Forgemancy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Forgemancy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minecraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Forgemancy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Forgemancy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -217,15 +351,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets.forgemancy" />
+              <option name="myItemId" value="com.olacken.forgemancy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="textures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="items" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -239,11 +369,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets.forgemancy" />
+              <option name="myItemId" value="com.olacken.forgemancy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="textures" />
+              <option name="myItemId" value="render.item" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,12 +387,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets.forgemancy" />
+              <option name="myItemId" value="com.olacken.forgemancy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Forgemancy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Forgemancy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.olacken.forgemancy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -395,7 +548,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,12 +562,12 @@
     <property name="LayoutCode.rearrangeEntries" value="true" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="NBTBase PSI JAVA://net.minecraft.nbt.NBTBase&#10;NBTTagCompound PSI JAVA://net.minecraft.nbt.NBTTagCompound&#10;ContainerE PSI JAVA://net.minecraft.inventory.ContainerEnchantment&#10;EntityPl PSI JAVA://net.minecraft.entity.player.EntityPlayer&#10;TileEntityEnchantmentTable PSI JAVA://net.minecraft.tileentity.TileEntityEnchantmentTable&#10;Enchan PSI JAVA://net.minecraft.enchantment.Enchantment&#10;ItemSt PSI JAVA://net.minecraft.item.ItemStack&#10;ItemSwo PSI JAVA://net.minecraft.item.ItemSword&#10;Rand PSI JAVA://java.util.Random&#10;Item  PSI JAVA://net.minecraft.item.Item&#10;TextureM PSI JAVA://net.minecraft.client.renderer.texture.TextureManager&#10;RenderM PSI JAVA://net.minecraft.client.renderer.entity.RenderManager&#10;Render PSI JAVA://net.minecraft.client.renderer.entity.Render" />
+    <property name="SearchEverywhereHistoryKey" value="ItemR&#9;FILE&#9;jar://C:/Users/Quentin/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/client/renderer/ItemRenderer.java&#10;Enchan&#9;FILE&#9;jar://C:/Users/Quentin/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/item/ItemEnchantedBook.java&#10;Ench&#9;PSI&#9;JAVA://net.minecraft.enchantment.Enchantment&#10;Items &#9;PSI&#9;JAVA://net.minecraft.init.Items&#10;Enchante&#9;PSI&#9;JAVA://net.minecraft.item.ItemEnchantedBook" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="dynamic.classpath" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -558,9 +710,9 @@
     <configuration default="false" name="Minecraft Client" type="Application" factoryName="Application">
       <extension enabled="false" name="coverage" runner="idea" sample_coverage="true" />
       <option name="MAIN_CLASS_NAME" value="GradleStart" />
-      <option name="VM_PARAMETERS" value="-Xincgc -Xmx1024M -Xms1024M -Djava.library.path=&quot;$PROJECT_DIR$/build/natives&quot; -Dfml.ignoreInvalidMinecraftCertificates=true" />
+      <option name="VM_PARAMETERS" value="-Xincgc -Xmx1024M -Xms1024M -Djava.library.path=&quot;$PROJECT_DIR$/../Forgemancy\build\natives&quot; -Dfml.ignoreInvalidMinecraftCertificates=true" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/eclipse" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../Forgemancy\eclipse" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -568,7 +720,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Forgemancy" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -577,7 +735,7 @@
       <option name="MAIN_CLASS_NAME" value="GradleStartServer" />
       <option name="VM_PARAMETERS" value="-Xincgc -Dfml.ignoreInvalidMinecraftCertificates=true" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/eclipse" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../Forgemancy\eclipse" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -614,31 +772,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-3" width="1366" height="771" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32671756" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39908952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928678" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3984733" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984733" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24848942" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24810892" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26435044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3414264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26399395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3389313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32776934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928678" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -667,7 +825,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -677,8 +835,313 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/block/BlockFMBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7835821" vertical-offset="0" max-vertical-offset="525">
-          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="595">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/block/BlockFMBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="646">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/block/BlockFMBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/proxy/IProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41975307" vertical-offset="0" max-vertical-offset="405">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/proxy/CommonProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="544">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/Forgemancy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="561">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="e#1087#1088#0" expanded="false" />
+            <element signature="e#1120#1121#0" expanded="false" />
+            <element signature="e#1204#1205#0" expanded="false" />
+            <element signature="e#1241#1242#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.1/ccedb5b6f96913c6f78bc10249e747ded90baa51/lwjgl-2.9.1-sources.jar!/org/lwjgl/opengl/WindowsContextImplementation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6909091" vertical-offset="1217" max-vertical-offset="1547">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/item/ItemStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1269" max-vertical-offset="13702">
+          <caret line="135" column="35" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
+          <folding>
+            <element signature="e#4133#4134#0" expanded="false" />
+            <element signature="e#4188#4189#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.1/ccedb5b6f96913c6f78bc10249e747ded90baa51/lwjgl-2.9.1-sources.jar!/org/lwjgl/opengl/GL11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="40588" max-vertical-offset="55624">
+          <caret line="2395" column="23" selection-start-line="2395" selection-start-column="23" selection-end-line="2395" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraftforge/client/ForgeHooksClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="7191">
+          <caret line="135" column="76" selection-start-line="135" selection-start-column="70" selection-end-line="135" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/item/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11297" max-vertical-offset="22253">
+          <caret line="808" column="4" selection-start-line="808" selection-start-column="4" selection-end-line="812" selection-end-column="5" />
+          <folding>
+            <element signature="e#39090#39091#0" expanded="false" />
+            <element signature="e#39114#39115#0" expanded="false" />
+            <element signature="e#45142#45143#0" expanded="false" />
+            <element signature="e#45173#45174#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/client/renderer/entity/Render.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4524" max-vertical-offset="6120">
+          <caret line="302" column="32" selection-start-line="302" selection-start-column="16" selection-end-line="302" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraftforge/client/IItemRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17435898" vertical-offset="0" max-vertical-offset="2363">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/cpw/mods/fml/client/registry/RenderingRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2006">
+          <caret line="110" column="31" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/client/renderer/entity/RenderManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5304">
+          <caret line="104" column="35" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/client/renderer/entity/RenderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6375" max-vertical-offset="13923">
+          <caret line="395" column="16" selection-start-line="395" selection-start-column="16" selection-end-line="395" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#34897#34898#0" expanded="true" />
+            <element signature="e#34928#34929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/render/item/IItemRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="4" column="67" selection-start-line="4" selection-start-column="67" selection-end-line="4" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/client/gui/inventory/GuiContainerCreative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5723" max-vertical-offset="19363">
+          <caret line="381" column="41" selection-start-line="381" selection-start-column="37" selection-end-line="381" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/NBTHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2235" max-vertical-offset="2839">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/nbt/NBTBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11505922" vertical-offset="0" max-vertical-offset="1700">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/nbt/NBTTagCompound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7837">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/enchantment/Enchantment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3468">
+          <caret line="205" column="78" selection-start-line="205" selection-start-column="78" selection-end-line="205" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/nbt/NBTTagList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1198" max-vertical-offset="4097">
+          <caret line="92" column="37" selection-start-line="92" selection-start-column="27" selection-end-line="92" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/init/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2269" max-vertical-offset="3128">
+          <caret line="161" column="40" selection-start-line="161" selection-start-column="24" selection-end-line="161" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/item/ItemEnchantedBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1551" max-vertical-offset="2142">
+          <caret line="53" column="60" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/proxy/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="374">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/creativetab/CreativeTabs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2100" max-vertical-offset="5474">
+          <caret line="193" column="31" selection-start-line="193" selection-start-column="17" selection-end-line="193" selection-end-column="31" />
+          <folding>
+            <element signature="e#6699#6700#0" expanded="true" />
+            <element signature="e#6723#6724#0" expanded="true" />
+            <element signature="e#7866#7867#0" expanded="true" />
+            <element signature="e#7908#7909#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/AlloyData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="535" max-vertical-offset="1547">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/item/ItemIngot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="714">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/AlloyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="629">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/client/renderer/ItemRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1796" max-vertical-offset="12546">
+          <caret line="156" column="53" selection-start-line="156" selection-start-column="53" selection-end-line="158" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/creativeTab/CreativeTabFM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding>
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/util/RenderHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1608" max-vertical-offset="3026">
+          <caret line="108" column="39" selection-start-line="108" selection-start-column="39" selection-end-line="108" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olacken/forgemancy/render/item/RenderIngot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17575757" vertical-offset="1234" max-vertical-offset="1564">
+          <caret line="78" column="40" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,4 +1,4 @@
-package com.olacken.forgemancy.util;
+package com.olacken.forgemancy.api;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
@@ -81,5 +81,22 @@ public class AlloyData {
         float b = (al1.green*am1+al2.green*am2)/(am1+am2);
 
         return new AlloyData(cata, resist, stren, pure, r, g, b);
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if(obj == null)
+            return false;
+
+        AlloyData data = (AlloyData)obj;
+
+
+        return data.catalysts == this.catalysts && data.resistance == this.resistance && data.strength == this.strength &&
+                data.pureness == this.pureness && data.red == this.red && data.green == this.green && data.blue == this.blue;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + catalysts + resistance + strength ;
     }
 }

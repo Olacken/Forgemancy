@@ -1,19 +1,93 @@
-package com.olacken.forgemancy.util;
+package com.olacken.forgemancy.render.item;
 
-import com.olacken.forgemancy.render.item.IItemRenderer;
+import com.olacken.forgemancy.api.IMultiTexturedItem;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.IIcon;
 import org.lwjgl.opengl.GL11;
 
 import java.util.Random;
 
-public class RenderHelper {
-    private static Random random = new Random();
+public class RenderMultitexturedItem implements net.minecraftforge.client.IItemRenderer {
 
-    public static void renderItemIn2D(Tessellator tessellator, float uMin, float vMin, float uMax, float vMax, int width, int height, float scale, boolean render3D) {
+    private static Random random = new Random();
+    @Override
+    public boolean handleRenderType(ItemStack item, ItemRenderType type) {
+        return true;
+    }
+
+    @Override
+    public boolean shouldUseRenderHelper(ItemRenderType type, ItemStack item, ItemRendererHelper helper) {
+        return false;
+    }
+
+    @Override
+    public void renderItem(ItemRenderType type, ItemStack item, Object... data) {
+        switch(type) {
+            case ENTITY : {
+                EntityItem entity = (EntityItem)data[1];
+                renderItemEntity(item, item.getItemDamage(), entity, item.isOnItemFrame());
+                break;
+            }
+            case EQUIPPED : {
+                doRender(item,item.getItemDamage(), true);
+                break;
+            }
+            case EQUIPPED_FIRST_PERSON : {
+                doRender(item,item.getItemDamage(), true);
+                break;
+            }
+            default :{
+                GL11.glPushMatrix();
+                GL11.glScaled(-16.0f, -16.0f, 0.0f);
+                GL11.glTranslatef(-1.0f, -1.0f, 0.0f);
+                doRender(item,item.getItemDamage(), true);
+                GL11.glPopMatrix();
+                break;}
+        }
+
+
+    }
+
+
+    public void doRender(ItemStack item,int dmg, boolean isOn3D) {
+
+
+
+        IMultiTexturedItem item1 = (IMultiTexturedItem)item.getItem();
+
+        float scale = 1f / 16f;
+
+        GL11.glPushMatrix();
+        GL11.glDisable(GL11.GL_LIGHTING);
+        GL11.glEnable(GL11.GL_BLEND);
+
+        for(int i = 0; i < item1.getTextureCount(); i++){
+            IIcon icon = item.getItem().getIconFromDamageForRenderPass(0, i);
+            float uMin = icon.getMinU();
+            float vMin = icon.getMinV();
+            float uMax = icon.getMaxU();
+            float vMax = icon.getMaxV();
+            float[] color = {1.0F,1.0F,1.0F,1.0F};
+            switch (item1.getSpecialRenderForRenderPass(dmg, i)){
+                case COLORED:
+                    color = item1.getColorForRenderPass(item, dmg, i);
+                    break;
+                default:
+            }
+            GL11.glColor4f(color[0],color[1],color[2],color[3]);
+           renderItemIn2D(Tessellator.instance, uMax, vMin, uMin, vMax, icon.getIconWidth(), icon.getIconHeight(), scale, isOn3D);
+
+        }
+        GL11.glDisable(GL11.GL_BLEND);
+        GL11.glEnable(GL11.GL_LIGHTING);
+        GL11.glPopMatrix();
+    }
+
+    public void renderItemIn2D(Tessellator tessellator, float uMin, float vMin, float uMax, float vMax, int width, int height, float scale, boolean render3D) {
         if(render3D){
             tessellator.startDrawingQuads();
             tessellator.setNormal(0.0F, 0.0F, 1.0F);
@@ -102,7 +176,7 @@ public class RenderHelper {
         }
     }
 
-    public static void renderItemEntity(IItemRenderer itemRenderer, ItemStack item ,EntityItem entity, boolean isOnFrame) {
+    public void renderItemEntity(ItemStack item, int dmg, EntityItem entity, boolean isOnFrame) {
 
 
         GL11.glPushMatrix();
@@ -139,7 +213,7 @@ public class RenderHelper {
                     GL11.glTranslatef(0F, 0F, 0.084375F);
                 }
 
-                itemRenderer.doRender(item, true);
+                doRender(item, dmg, true);
             }
         }
         else
@@ -163,7 +237,7 @@ public class RenderHelper {
                     float f17 = (random.nextFloat() * 2.0F - 1.0F) * 0.3F;
                     GL11.glTranslatef(f10, f16, f17);
                 }
-                itemRenderer.doRender(item, false);
+                doRender(item, dmg, false);
             }
         }
 

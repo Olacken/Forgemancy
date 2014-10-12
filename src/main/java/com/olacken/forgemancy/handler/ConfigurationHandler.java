@@ -13,7 +13,7 @@ public class ConfigurationHandler {
 
     public static boolean configValue = false;
 
-    public static void init(File configFile) {
+    public static void initConfigs(File configFile) {
         //Create the configuration object from the configuration file
         if (configuration == null) {
             configuration = new Configuration(configFile);

@@ -1,10 +1,7 @@
 package com.olacken.forgemancy;
 
-import com.olacken.forgemancy.handler.ConfigurationHandler;
-import com.olacken.forgemancy.init.ModItems;
 import com.olacken.forgemancy.proxy.IProxy;
 import com.olacken.forgemancy.reference.Reference;
-import com.olacken.forgemancy.util.LogHelper;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -22,7 +19,6 @@ public class Forgemancy {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         proxy.preInit(event);
-
     }
 
     @Mod.EventHandler
